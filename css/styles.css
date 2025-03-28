@@ -711,6 +711,54 @@ footer {
     margin-right: 5px;
 }
 
+/* editorial */
+
+h2{
+    margin-bottom: 1.5em;
+    text-align: start;
+    padding: 0 .7em;
+}
+
+.arbitraje,
+.que-hicimos,
+.que-falta{
+    line-height: 1.8em;
+    padding: 0 2em 0 1em;
+    margin-bottom: 2.5em;
+    text-align: start;
+}
+
+h3{
+    color: var(--stroke);
+    margin-bottom: .5em;
+}
+
+/* presidentes */
+
+.table-container {
+    
+    width: 100%;
+    max-width: 600px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    padding: 1em;
+    background-color: var(--background);
+    color: var(--main);
+}
 
 
 /* Responsivo */
